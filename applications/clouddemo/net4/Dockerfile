@@ -19,7 +19,8 @@
 # under the License.
 #
 
-FROM mcr.microsoft.com/windows/servercore/iis:windowsservercore-ltsc2019
+# FROM mcr.microsoft.com/windows/servercore/iis:windowsservercore-ltsc2019
+FROM mcr.microsoft.com/dotnet/framework/aspnet:4.7.2-windowsservercore-ltsc2019
 EXPOSE 80
 SHELL ["powershell", "-command"]
 
