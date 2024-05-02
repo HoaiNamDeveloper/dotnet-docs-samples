@@ -28,7 +28,6 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v3
 
-
     #
     # Authenticate to Google Cloud using workload identity federation
     #
