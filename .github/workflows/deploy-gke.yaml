@@ -5,13 +5,13 @@ on:
     branches:
       - main
 env:
-  PROJECT_ID: bold-vortex-415110
-  PROJECT_NUMBER: 396040357939
+  PROJECT_ID: delta-carving-423604-u3
+  PROJECT_NUMBER: 60242126004
 
-  CLUSTER: clouddemo-windows
-  CLUSTER_ZONE: us-central1-a
+  CLUSTER: cluster-crm
+  CLUSTER_ZONE: us-central1-c
 
-  REPOSITORY: clouddemo
+  REPOSITORY: dotnetcontainer
   REPOSITORY_REGION: us-central1
 
   IMAGE: clouddemo
