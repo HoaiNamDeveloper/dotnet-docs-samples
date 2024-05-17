@@ -36,6 +36,7 @@ namespace CloudDemo.Mvc.Controllers
                 { "KUBERNETES_SERVICE_HOST", "Kubernetes" },
                 { "K_SERVICE", "Cloud Run" }
             };
+            
 
         public static async Task<string> DetermineRuntime()
         {
